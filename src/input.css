@@ -326,7 +326,7 @@
     }
   }
 
-  @media(max-width: 640px){
+  @media(max-width: 768px){
     .hero__city{
       position: absolute;
       max-width: 100%;
@@ -335,10 +335,10 @@
       max-width: 220px;
 
   }
-
   .big-timer h2{
     max-width: 280px;
   }
+  
   }
 
 
