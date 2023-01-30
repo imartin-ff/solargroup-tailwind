@@ -339,6 +339,10 @@
   opacity: 0.5;
 }
 
+.attention svg{
+  margin-top: 2px;
+}
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */

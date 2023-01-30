@@ -350,6 +350,10 @@
     opacity: 0.5;
   }
 
+  .attention svg{
+    margin-top: 2px;
+  }
+
 
 
   @tailwind base;
