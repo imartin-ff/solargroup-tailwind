@@ -330,6 +330,15 @@
   }
 }
 
+.attention svg{
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.pointer-events-none{
+  opacity: 0.5;
+}
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -859,6 +868,10 @@ video {
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .visible {
   visibility: visible;
 }
@@ -871,8 +884,8 @@ video {
   position: relative;
 }
 
-.right-1 {
-  right: 0.25rem;
+.-right-16 {
+  right: -4rem;
 }
 
 .bottom-12 {
@@ -887,28 +900,9 @@ video {
   left: 0.75rem;
 }
 
-.-right-1 {
-  right: -0.25rem;
-}
-
-.-right-8 {
-  right: -2rem;
-}
-
-.-right-10 {
-  right: -2.5rem;
-}
-
-.-right-12 {
-  right: -3rem;
-}
-
-.-right-14 {
-  right: -3.5rem;
-}
-
-.-right-16 {
-  right: -4rem;
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my-5 {
@@ -1063,20 +1057,16 @@ video {
   width: 25%;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
 .table-fixed {
   table-layout: fixed;
 }
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-default {
+  cursor: default;
 }
 
 .cursor-pointer {

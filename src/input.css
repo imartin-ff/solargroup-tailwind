@@ -341,7 +341,14 @@
   
   }
 
+  .attention svg{
+    min-width: 18px;
+    min-height: 18px;
+  }
 
+  .pointer-events-none{
+    opacity: 0.5;
+  }
 
 
 
