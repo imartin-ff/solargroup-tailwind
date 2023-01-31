@@ -343,6 +343,14 @@
   margin-top: 2px;
 }
 
+@media(max-width: 800px) and (min-width: 768px){
+  .big-timer .btns-wrap{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -1655,18 +1663,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:items-center {
-    align-items: center;
-  }
-
   .lg\:text-7xl {
     font-size: 60px;;
     line-height: 73px;;
