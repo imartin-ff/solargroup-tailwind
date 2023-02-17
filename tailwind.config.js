@@ -16,7 +16,8 @@ module.exports = {
           gray: '#F5F5F5',
           blue: '#E2ECFE',
           light_gray: 'rgba(255, 255, 255, 0.6)',
-          green: '#7ECD51'
+          green: '#7ECD51',
+          warning: '#FFEAB8'
       },
   },
 
